@@ -1,15 +1,52 @@
-﻿body
-{
+﻿body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    border: 9px solid black;
 }
 
-h1
-{
 
+.fusion {
+    background-color: #0e3b84;
+    text-align: left;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: .2px;
+    padding-bottom: 1px;
+    padding-left: 9px;
+    font-size: 20px;
+    box-shadow: 0px 2px 10px black;
 }
 
-.fusion
-{
-    background-color: #174da5;
-    text-align: right;
+.pics {
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.fusion2 {
+    background-color: #0e3b84;
+    text-align: left;
+    margin: 0px;
+}
+
+#fusionhead {
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h2 span { 
+   color: white; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
 }
